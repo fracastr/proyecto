@@ -1018,3 +1018,24 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/yii/proyecto/
 ---
+2016/05/20 18:55:48 [warning] [application] Failed to set unsafe attribute "file" of "CrudCode".
+in C:\xampp\htdocs\Yii\proyecto\index.php (13)
+2016/05/20 18:55:53 [warning] [application] Failed to set unsafe attribute "file" of "CrudCode".
+in C:\xampp\htdocs\Yii\proyecto\index.php (13)
+2016/05/20 18:56:12 [warning] [application] Failed to set unsafe attribute "file" of "CrudCode".
+in C:\xampp\htdocs\Yii\proyecto\index.php (13)
+2016/05/20 18:56:15 [warning] [application] Failed to set unsafe attribute "file" of "CrudCode".
+in C:\xampp\htdocs\Yii\proyecto\index.php (13)
+2016/05/20 19:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "calendar".' in C:\xampp\htdocs\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(270): CController->missingAction('calendar')
+#1 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('calendar')
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('alumno/calendar')
+#3 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Yii\proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/proyecto/index.php?r=alumno/calendar
+---
+2016/05/20 19:00:56 [warning] [application] Failed to set unsafe attribute "ID_ALUMNO" of "Alumno".
+in C:\xampp\htdocs\Yii\proyecto\protected\controllers\AlumnoController.php (289)
+in C:\xampp\htdocs\Yii\proyecto\index.php (13)

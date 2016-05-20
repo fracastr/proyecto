@@ -16,6 +16,9 @@ $menu=
 		array('label'=>'Pages', 'url'=>'#', 'icon'=>'fa fa-sitemap' , 'active'=>($currController=='site' and $currAction!='index') , 'items'=>array(
 			array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about'),'active'=>($currController=='site' and $currAction=='page' )),
 			array('label'=>'Contact', 'url'=>array('/site/contact'),'active'=>($currController=='site' and $currAction=='contact' )),
+				array('label'=>'Profesor', 'url'=>array('/profesor/index'),'active'=>($currController=='Profesor' and $currAction=='index' )),
+				array('label'=>'Alumno', 'url'=>array('/alumno/index'),'active'=>($currController=='Alumno' and $currAction=='index' )),
+
 			//'---',
 			//array('label'=>'NAV HEADER'),
 		)),
